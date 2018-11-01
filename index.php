@@ -6,11 +6,11 @@
 	</head>
 	<body>
 		<?php
-				setlocale(LC_ALL, "russian");
+			/*setlocale(LC_ALL, "russian");
 					/*$day = strftime("%d");
 					$mon = strftime("%B");
 					$year = strftime("%Y");
-					echo "$day, $mon, $year";*/
+					echo "$day, $mon, $year";
 
 			$hous = (int) strftime("%H");
 			$welcome;
@@ -31,6 +31,12 @@
 				$welcome = "Good night2";
 				echo "$welcome";
 			}
+			*/
+
+			echo ini_get('post_max_size');
+
+			echo "Maxim";
+			
 		?>		
 	</body>	
 </html>
